@@ -1,2 +1,18 @@
 {
+  "manifest_version": 1,
+  "name": "BGG New Posts",
+  "version": "1.0",
+
+  "description": "Counts new posts and has arrows to jump foward and backwards between posts.",
+
+  "icons": {
+    
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://boardgamegeek.com/*"],
+      "js": ["newposts.js"]
+    }
+  ]
 }
