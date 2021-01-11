@@ -1,0 +1,10 @@
+.bggnewpost_toolbar {
+   position: fixed;
+   top: 55px;
+   right: 3px;
+   background-color: black;
+   border: 1px solid black;
+   -webkit-user-select: none;
+   padding: 3px;
+   opacity: 0.5;
+}
